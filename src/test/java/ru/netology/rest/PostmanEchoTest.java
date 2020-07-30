@@ -15,7 +15,7 @@ public class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data.toString()=='SOME DATA'", is(true))
+                .body("data.toString()=='some data'", is(true))
         ;
 
     }
